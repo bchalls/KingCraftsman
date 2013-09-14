@@ -1,0 +1,72 @@
+$Iron Blade-1
+##i##
+#iii#
+#iii#
+#iii#
+#iii#
+$Stone Block-3
+sssss
+s###s
+s###s
+s###s
+sssss
+$Wooden Block-3
+wwwww
+w###w
+w###w
+w###w
+wwwww
+$Stone Pick-4
+#sss#
+sssss
+ss#ss
+s###s
+#####
+$Shield Grip-2
+####i
+#llll
+ll##i
+#llll
+####i
+$Shovel Head-4
+#####
+#iii#
+iiiii
+iiiii
+iiiii
+$Axe Head-4
+#ss##
+isss#
+#isss
+##i#w
+#####
+$Stopper-5
+#####
+#####
+wbbbw
+#www#
+##w##
+$Key-7
+igg##
+##g##
+igg##
+##g##
+#ggg#
+$Broad Blade-1
+iibii
+iibii
+iibii
+iibii
+lllll
+$Boot-6
+lll##
+lll##
+lll##
+l#lli
+lllli
+$Vest-6
+l###l
+llill
+llill
+#lll#
+#lll#

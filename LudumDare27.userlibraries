@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="gwt-2.5">
+    <archive path="C:/Development/gwt-2.5.1/gwt-dev.jar" />
+    <archive path="C:/Development/gwt-2.5.1/gwt-user.jar" />
+    <archive path="C:/Development/gwt-2.5.1/gwt-servlet.jar" />
+    <archive path="C:/Development/gwt-2.5.1/gwt-soyc-vis.jar" />
+    <archive path="C:/Development/gwt-2.5.1/gwt-elemental.jar" />
+    <archive path="C:/Development/gwt-2.5.1/gwt-codeserver.jar" />
+    <archive path="C:/Development/gwt-2.5.1/gwt-api-checker.jar" />
+    <archive path="C:/Development/gwt-2.5.1/gwt-servlet-deps.jar" />
+    <archive path="C:/Development/gwt-2.5.1/requestfactory-apt.jar" />
+    <archive path="C:/Development/gwt-2.5.1/gwt-benchmark-viewer.war" />
+    <archive path="C:/Development/gwt-2.5.1/requestfactory-client.jar" />
+    <archive path="C:/Development/gwt-2.5.1/requestfactory-server.jar" />
+    <archive path="C:/Development/gwt-2.5.1/requestfactory-apt-src.jar" />
+    <archive path="C:/Development/gwt-2.5.1/validation-api-1.0.0.GA.jar" />
+    <archive path="C:/Development/gwt-2.5.1/requestfactory-client+src.jar" />
+    <archive path="C:/Development/gwt-2.5.1/requestfactory-client-src.jar" />
+    <archive path="C:/Development/gwt-2.5.1/requestfactory-server+src.jar" />
+    <archive path="C:/Development/gwt-2.5.1/requestfactory-server-src.jar" />
+    <archive path="C:/Development/gwt-2.5.1/validation-api-1.0.0.GA-sources.jar" />
+  </library>
+</eclipse-userlibraries>
+

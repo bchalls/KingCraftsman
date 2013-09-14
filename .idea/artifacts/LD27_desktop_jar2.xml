@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LD27-desktop:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/LD27_desktop_jar2</output-path>
+    <root id="archive" name="LD27-desktop.jar">
+      <element id="module-output" name="LD27-desktop" />
+      <element id="module-output" name="LD27" />
+    </root>
+  </artifact>
+</component>

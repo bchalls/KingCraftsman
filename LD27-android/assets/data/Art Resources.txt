@@ -1,0 +1,10 @@
+Background - http://opengameart.org/content/wooden-box-2d
+Craft Table - http://opengameart.org/content/rusty-crate
+Wood - http://opengameart.org/content/modified-32x32-treasure-chest
+Stone - http://opengameart.org/content/stoneblocks
+Iron/Copper/Gold - http://opengameart.org/content/rock-tileset
+Leather - http://opengameart.org/content/whispers-of-avalon-item-icons
+Tool Box - http://opengameart.org/content/jrpg-chests-16-32-64-and-128px-squared
+Card Image - http://www.webdesignhot.com/free-vector-graphics/old-parchment-vector-illustration/
+Parchment - http://opengameart.org/content/old-parchment-paper
+UI Boxes - http://opengameart.org/content/lpc-pennomis-ui-elements

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LD27/LD27.iml" filepath="$PROJECT_DIR$/LD27/LD27.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LD27-android/LD27-android.iml" filepath="$PROJECT_DIR$/LD27-android/LD27-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LD27-desktop/LD27-desktop.iml" filepath="$PROJECT_DIR$/LD27-desktop/LD27-desktop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LD27-html/LD27-html.iml" filepath="$PROJECT_DIR$/LD27-html/LD27-html.iml" />
+    </modules>
+  </component>
+</project>
+

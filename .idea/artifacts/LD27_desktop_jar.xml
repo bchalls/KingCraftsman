@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LD27-desktop:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LD27_desktop_jar</output-path>
+    <root id="archive" name="LD27-desktop.jar">
+      <element id="module-output" name="LD27-desktop" />
+      <element id="module-output" name="LD27" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/LD27-desktop/libs/gdx-backend-lwjgl.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/LD27-desktop/libs/gdx-natives.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/LD27/libs/gdx.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/LD27-desktop/libs/gdx-backend-lwjgl-natives.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

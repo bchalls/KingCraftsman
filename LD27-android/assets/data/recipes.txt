@@ -1,0 +1,66 @@
+$Copper Pommel-1
+#cic#
+c#w#c
+##w##
+##w##
+##w##
+$Shield-2
+#iii#
+iwwwi
+iwwwi
+iwwwi
+#iii#
+$Decorative Stone-3
+sssss
+sc#cs
+s#i#s
+sc#cs
+sssss
+$Lockbox-7
+ccccc
+c###c
+c#i#c
+c###c
+ccccc
+$Tool Handle-4
+#iwi#
+#lwl#
+##w##
+##w##
+##w##
+$Fancy Handle-4
+#gbg#
+lgagl
+##i##
+##i##
+##i##
+$Glass Bottle-5
+#####
+#a#a#
+a###a
+a###a
+#aaa#
+$Glove-6
+l#l#l
+l#l#l
+lllll
+lgbgl
+lllll
+$Iron Pommel-1
+#iii#
+#lsl#
+##s##
+##s##
+##s##
+$Mirror-3
+wwwww
+waaaw
+waaaw
+waaaw
+wwwww
+$Gold Block-3
+ggggg
+g###g
+g###g
+g###g
+ggggg
