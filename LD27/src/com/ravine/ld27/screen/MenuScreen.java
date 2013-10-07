@@ -1,6 +1,7 @@
 package com.ravine.ld27.screen;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
@@ -28,8 +29,31 @@ public class MenuScreen extends AbstractScreen {
     public MenuScreen(LD27 game) {
         super(game);
 
+        assMan.load("data/buttons.png", Texture.class);
+        assMan.load("data/title.png", Texture.class);
+        assMan.load("data/bg.png", Texture.class);
+        assMan.load("data/card.png", Texture.class);
+        assMan.load("data/coin.png", Texture.class);
+        assMan.load("data/end.png", Texture.class);
+        assMan.load("data/greyOut.png", Texture.class);
+        assMan.load("data/grid.png", Texture.class);
+        assMan.load("data/grid2.png", Texture.class);
+        assMan.load("data/htp.png", Texture.class);
+        assMan.load("data/materials.png", Texture.class);
+        assMan.load("data/mHighlight.png", Texture.class);
+        assMan.load("data/score.png", Texture.class);
+        assMan.load("data/timer.png", Texture.class);
+        assMan.load("data/toolbox.png", Texture.class);
+        assMan.load("data/bonus.wav", Sound.class);
+        assMan.load("data/gold.wav", Sound.class);
+        assMan.load("data/put.wav", Sound.class);
+        assMan.load("data/bonus.wav", Sound.class);
+
+        loadAssests();
+
+
         buttonDrawables = new Drawable[3][2];
-        Texture temp = new Texture(Gdx.files.internal("data/buttons.png"));
+        Texture temp = assMan.get("data/buttons.png", Texture.class);
         buttonDrawables[0][0] = new TextureRegionDrawable(new TextureRegion(temp, 0, 192, 256, 64));
         buttonDrawables[0][1] = new TextureRegionDrawable(new TextureRegion(temp, 256, 192, 256, 64));
         buttonDrawables[1][0] = new TextureRegionDrawable(new TextureRegion(temp, 0, 256, 256, 64));
@@ -105,12 +129,18 @@ public class MenuScreen extends AbstractScreen {
             }
         });
 
-        bgImage = new Image(new Texture(Gdx.files.internal("data/bg.png")));
-        titleImage = new Image(new Texture(Gdx.files.internal("data/title.png")));
+        bgImage = new Image(assMan.get("data/bg.png", Texture.class));
+        titleImage = new Image(assMan.get("data/title.png", Texture.class));
         titleImage.setPosition(stage.getWidth()/2-320, stage.getHeight()-400);
 
 
 
+    }
+
+    private void loadAssests() {
+        while(!assMan.update()) {
+
+        }
     }
 
     @Override

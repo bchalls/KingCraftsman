@@ -1,6 +1,7 @@
 package com.ravine.ld27.screen;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.assets.AssetManager;
 import com.badlogic.gdx.files.FileHandle;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
@@ -86,7 +87,7 @@ public class GameScreen extends AbstractScreen {
         buttonDrawables = new Drawable[5][2];
         setUpButtons();
 
-        bgImage = new Image(new Texture(Gdx.files.internal("data/bg.png")));
+        bgImage = new Image(assMan.get("data/bg.png", Texture.class));
 
         stage.addListener(new InputListener() {
            @Override
@@ -117,7 +118,7 @@ public class GameScreen extends AbstractScreen {
     }
 
     private void setUpButtons() {
-        Texture buttonTexture = new Texture(Gdx.files.internal("data/buttons.png"));
+        Texture buttonTexture = assMan.get("data/buttons.png", Texture.class);
         for(int i = 0; i < buttonDrawables.length; i++) {
             for(int j = 0; j < buttonDrawables[i].length; j++) {
                 buttonDrawables[i][j] = new TextureRegionDrawable(new TextureRegion(buttonTexture,
@@ -233,6 +234,8 @@ public class GameScreen extends AbstractScreen {
                     nextPressed = false;
                     startPressed = false;
                     revealPressed = false;
+
+                    table.clearTable();
 
                     ((Button) event.getListenerActor()).toggle();
                 }

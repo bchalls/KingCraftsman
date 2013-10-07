@@ -1,6 +1,7 @@
 package com.ravine.ld27.screen;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
+import com.badlogic.gdx.assets.AssetManager;
 import com.badlogic.gdx.graphics.GL10;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.math.Rectangle;
@@ -14,6 +15,7 @@ public abstract class AbstractScreen implements Screen {
     protected final Stage stage;
     protected OrthographicCamera camera;
     protected Rectangle viewport;
+    public static final AssetManager assMan = new AssetManager();
 
     protected static final int STAGE_WIDTH = 1392, STAGE_HEIGHT = 960;
     protected int vWidth = 800, vHeight = 600;

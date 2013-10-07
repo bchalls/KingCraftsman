@@ -21,7 +21,7 @@ import com.ravine.ld27.screen.GameScreen;
  */
 public class CraftTable extends Group {
     private Recipe curRecipe;
-    private GameScreen screen;
+    public GameScreen screen;
     private GridSlot[] gridSlots;
     private TextureRegion tableRegion, gridRegion;
     private BitmapFont font;
@@ -37,8 +37,8 @@ public class CraftTable extends Group {
 
         gridSlots = new GridSlot[25];
 
-        tableRegion = new TextureRegion(new Texture(Gdx.files.internal("data/grid2.png")));
-        gridRegion = new TextureRegion(new Texture(Gdx.files.internal("data/grid.png")));
+        tableRegion = new TextureRegion(screen.assMan.get("data/grid2.png", Texture.class));
+        gridRegion = new TextureRegion(screen.assMan.get("data/grid.png", Texture.class));
         setSize(tableRegion.getRegionWidth(),tableRegion.getRegionHeight());
         setOrigin(getWidth()/2, getHeight()/2);
 

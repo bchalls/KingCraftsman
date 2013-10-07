@@ -51,19 +51,19 @@ public class Recipe extends Actor{
 
         setNumber = set;
 
-        cardRegion = new TextureRegion(new Texture(Gdx.files.internal("data/card.png")));
+        cardRegion = new TextureRegion(screen.assMan.get("data/card.png", Texture.class));
         setWidth(cardRegion.getRegionWidth());
         setHeight(cardRegion.getRegionHeight());
 
-        gridRegion = new TextureRegion(new Texture(Gdx.files.internal("data/grid.png")));
+        gridRegion = new TextureRegion(screen.assMan.get("data/grid.png", Texture.class));
 
-        greyRegion = new TextureRegion(new Texture(Gdx.files.internal(("data/greyOut.png"))));
+        greyRegion = new TextureRegion(screen.assMan.get("data/greyOut.png", Texture.class));
 
         materialRegionArray = new TextureRegion[25];
         for(int i = 0; i < materialRegionArray.length; i++){
             materialRegionArray[i] = null;
         }
-        materialTexture = new Texture(Gdx.files.internal("data/materials.png"));
+        materialTexture = screen.assMan.get("data/materials.png", Texture.class);
 
         revealed = false;
 

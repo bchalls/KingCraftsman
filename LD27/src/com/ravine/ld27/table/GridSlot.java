@@ -36,7 +36,7 @@ public class GridSlot extends Actor{
 
         active = false;
 
-        materialTexture = new Texture(Gdx.files.internal("data/materials.png"));
+        materialTexture = parent.screen.assMan.get("data/materials.png", Texture.class);
         materialRegion = new TextureRegion(materialTexture, 0, 0, 32, 32);
 
         table = parent;
@@ -49,7 +49,7 @@ public class GridSlot extends Actor{
         setSize(32, 32);
         //setOrigin(16,16);
 
-        sound = Gdx.audio.newSound(Gdx.files.internal("data/put.wav"));
+        sound = parent.screen.assMan.get("data/put.wav" ,Sound.class);
 
         addListener(new ActorGestureListener() {
            @Override
@@ -60,6 +60,7 @@ public class GridSlot extends Actor{
                        clearMaterial();
                    } else {
                        setMaterialType(table.getSelectedMaterial().getType());
+                       Gdx.app.log(LD27.LOG, "Material of type: " + table.getSelectedMaterial().getType() + " added.");
                    }
                }
            }
@@ -89,7 +90,7 @@ public class GridSlot extends Actor{
         } else if(type.equals("Glass")) {
             materialRegion = new TextureRegion(materialTexture, 192, 0, 32, 32);
         } else if(type.equals("Silver")) {
-            materialRegion = new TextureRegion(materialTexture, 256, 0, 32, 32);
+            materialRegion = new TextureRegion(materialTexture, 224, 0, 32, 32);
         }
 
         if (materialType != null) hasMaterial = true;
